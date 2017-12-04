@@ -136,7 +136,7 @@
 
                 } else {
 
-                    redirect('student/dashboard');
+                    redirect('student/Classfeed');
                 }
 
 
