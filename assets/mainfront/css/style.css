@@ -50,7 +50,7 @@
     border-radius: 100px;}
 
 .page-header  .btn-group{ float: right; }
-	
+
 .page-header button.btn.btn-trans {
     background: transparent; 
     color: #fff;
@@ -103,6 +103,7 @@
     line-height: 18px;
     padding-right: 10px;
 }
+.congrats-lets{float:right; width:200px; height:auto;}
 
 .user-section .btn-group.open .dropdown-menu, .page-header .btn-group.open .dropdown-menu, ul.navbar-right li.open .dropdown-menu{
 	display:none;
@@ -833,14 +834,15 @@ a.blue-button:hover{background:#10319c; text-decoration:none;}
 .body-Login-back .btn-block{background:#1742CE; margin-top:20px;}
 
 .first .form-group:nth-child(5), .third .form-group:nth-child(1){margin-right:0; width:97%}
+.first .form-group:nth-child(6), .fourth .form-group:nth-child(2){margin-right:0; width:97%}
 .add-student .btn-block{    display: inline;
     line-height: 70px;
     padding: 10px 20px;}
 
 .body-Login-back table .form-group{margin-bottom:0;}
 .body-Login-back table thead{
-    border: 1px solid #95989A;
-    background: #E1E1E1;
+    border-bottom: 1px solid #95989A;
+    /*background: #E1E1E1;*/
 }	
 	
 .body-Login-back table thead tr td {
@@ -930,12 +932,12 @@ border: 1px solid #95989A;
 /* forms */
 .body-Login-back .login-panel  .form-control{font-size: 15px; border-color:#95989A;}
 .body-Login-back .center{margin: 0 auto; float: none;}
-.body-Login-back .login-panel  .form-control::placeholder, .body-Login-back .login-panel  .form-control{color:#95989A}
-.body-Login-back .academic .form-control::placeholder{color:#000;}
+.body-Login-back .login-panel  .form-control::placeholder, .body-Login-back .login-panel  .form-control{color:#000}
+.body-Login-back .academic .form-control::placeholder{color:#a4a4a4;}
 .academic {margin-top:6%}
-.academic .form-group{margin-bottom: 5px;}
+.academic .form-group{margin-bottom: 15px;}
 .academic .btn-primary{margin: 0 auto;
-    width: 50%;}
+    width: 85%;}
 .students {
     height: 360px;
     overflow-y: scroll;
@@ -955,9 +957,10 @@ ul li.searchable-container label{border: 0 !important; padding: 0 !important; wi
 .students ul li{display:inline-block; padding-right: 20px;}
 ul li.searchable-container{margin: 10px 0 0 0;}
 .students ul li:last-child{float: right; padding-right: 10px;}
-.students ul li img{border-radius: 50%;}
+.students ul li img{border-radius: 50%; width:55px; height:55px;}
 .students ul li h4{font-weight: 400;}
-.body-Login-back .login-panel .btn-block{padding: 15px 40px; margin-bottom: 10px;}
+.body-Login-back .login-panel .btn-block{padding: 15px 23px; margin-bottom: 10px;}
+.butn-wrapper{width:130px; height:auto; float:right;}
 .done{height:200px;}
 .searchable-container{margin:20px 0 0 0; padding-left: 20px;}
 .searchable-container label.btn-default.active{background-color:#00a1fe;color:#FFF}

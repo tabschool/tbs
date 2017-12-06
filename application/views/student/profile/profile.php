@@ -49,7 +49,7 @@
 			<p><i class="material-icons">place</i><?php if(!empty($user_info->address)) echo ucfirst($user_info->address); ?></p>
 			<?php endif; ?>
 			<?php if(!empty($user_info->city_view)): ?>
-			<p><i class="material-icons">City</i><?php if(!empty($user_info->city)) echo ucfirst($user_info->city); ?></p>
+			<p><i class="material-icons">location_city</i><?php if(!empty($user_info->city)) echo ucfirst($user_info->city); ?></p>
 			<?php endif; ?>
 			<?php if(!empty($user_info->parents_view)): ?>
 			<p><i class="material-icons">child_care</i> Father's Name : <?php if(!empty($user_info->fatherName)) echo ucfirst($user_info->fatherName); ?> <br/>Mother's Name : <?php if(!empty($user_info->motherName)) echo ucfirst($user_info->motherName); ?></p>

@@ -10,11 +10,10 @@
 			
 			
 			
-         <div class="row">
-    <div class="col-lg-12">
 
-         <div class="row login-panel panel panel-default info">
-        <div class="col-md-7 col-sm-7">
+
+         <div class="row login-panel panel panel-default svdf" style="margin-left:1.3%; margin-right:1%; padding:15px;">
+        <div class="col-md-6">
        
             <h4>Course Detail</h4>
                 
@@ -34,17 +33,60 @@
                 <strong> Status: </strong> <?php  if(!empty($course->status) && $course->status==1){  echo  'Active';  }else{    echo 'InActive';    }  ?>
             </p>            
                                 
-            <h4>Branch Detail</h4>  
- 
-            <p>
-                 <strong>Branch Name : </strong>  <?php if(!empty($branch->branch_name)){  echo  ucfirst($branch->branch_name);  }else{  echo  ' NA ';   } ?>
-            </p>
+            
                            
                             
                
         </div>
+		<div class="col-lg-6">
+		<h4>Branch Detail</h4>  
+ 
+            <p>
+                 <strong>Branch Name : </strong>  <?php if(!empty($branch->branch_name)){  echo  ucfirst($branch->branch_name);  }else{  echo  ' NA ';   } ?>
+            </p>
+		</div>
         
     </div>
+	
+<div class="row login-panel panel panel-default svdf" style="margin-left:1.3%; margin-right:1%; padding:15px;">
+<?php echo form_open(current_url(),array('method'=>'post','class'=>'ng-pristine ng-valid')); ?>
+<div class="col-lg-12">
+                            <div class="form-group">
+                                <label>Semester Name</label>
+                                <input id="semester_name" name="semester_name" value="<?php echo  set_value('semester_name');  ?>"  ng-model="class_info.class_code" class="form-control required ng-pristine ng-valid" type="text"  placeholder="Semester Name" >
+                                <?php echo form_error('semester_name');  ?>
+                            </div>
+                        </div>
+
+ <table class="table responsive-table" style="margin-bottom: 10px;">
+                                <thead>
+                                    <tr>
+                                        <th>Subject Name</th>
+                                        <th>Description</th>
+                                       
+                                    </tr>
+                                </thead>
+                                <tbody id="add-new-row">
+                                    <tr>
+                                        <td>
+                                            <input type="text" class="validate form-control require" name="subject_name[]" id="enrollmentno" placeholder="Subject Name" required="">
+                                            <div class="error"><?php echo form_error('subject_name'); ?></div>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="validate form-control require" name="description[]" id="description" placeholder="Description" required="">
+                                            <div class="error"><?php echo form_error('description'); ?></div>
+                                        </td> 
+                                    
+                                    </tr>
+                                </tbody>
+                            </table>
+							<div class="col-md-12">
+                        <a class="blue-button" id="add-student-id">Add Subject</a>
+                            <input class="blue-button" ng-click="add_update_class()" type="submit" name="add_class_btn" id="add_class_btn" value="Submit">
+                        </div>
+                    <?php    echo  form_close(); ?>
+
+</div>
         <!-- Advanced Tables -->
         <div class="panel panel-primary">
             <div class="panel-heading">

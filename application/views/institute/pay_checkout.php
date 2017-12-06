@@ -103,10 +103,10 @@ such as VAT, Service Tax etc.</span></p>
 								<form action="" method="post" >
 
                                     <input type="hidden" name="pay_amount" value="<?php echo '100.00'  ?>">
-
+									<div class="butn-wrapper">
                                     <button type="submit" class="btn btn-primary btn-block login">Pay</button>
-
-                                </form>
+									</div>
+									</form>
                             
                 </div>
                 </div>

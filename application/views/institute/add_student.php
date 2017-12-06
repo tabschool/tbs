@@ -1,12 +1,12 @@
  <div class="container">       
         <div class="row">           
-            <div class="col-md-9 center">
+            <div class="col-md-11 center">
                 <div class="login-panel panel panel-default academic">                  
                    
           <div class="panel-body blue-border add-student">
             <h3>Add Students</h3>
             <form class="form-container" action="" method="post">
-           <table class="table table-bordered">
+           <table class="table table-striped">
               <thead>
                   <tr>
                     <th>Enrollment No.</th>
@@ -28,8 +28,10 @@
               </table>
                                 
               <!-- Change this to a button or input when using this as a form -->
-              <input style="background: #1742ce none repeat scroll 0 0; padding: 10px 20px;" type="submit" class="btn btn-primary login" name="SUBMIT" value="SUBMIT">
+			  <input style="background: #1742ce none repeat scroll 0 0; padding: 10px 20px;" type="submit" class="btn btn-primary login" name="SUBMIT" value="SUBMIT">
+			  <a class="btn btn -primary btn-block login" id="">Submit</a>
               <a class="btn btn-primary btn-block login" id="add-student-id">Add Another Student</a>
+			 
 
               </form>      
             </div>

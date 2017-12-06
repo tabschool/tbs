@@ -9,15 +9,12 @@
 
 			
 			
-			
-         <div class="row">
-    <div class="col-lg-12">
 
-         <div class="row login-panel panel panel-default info">
-        <div class="col-md-7 col-sm-7">
+
+         <div class="row login-panel panel panel-default svdf" style="margin-left:1.3%; margin-right:1%; padding:15px;">
+        <div class="col-lg-6">
        
-            <h4  >Course Detail</h4>
-         
+            <h4>Course Detail</h4>        
                 
                             <p>
                                  <strong>Course Name : </strong> <?php if(!empty($course->course_name)){  echo  ucfirst($course->course_name);  }else{  echo  ' NA ';   }?>
@@ -43,8 +40,26 @@
                             
                
         </div>
+		<div class="col-lg-6">
+			<?php echo form_open(current_url(),array('method'=>'post','class'=>'ng-pristine ng-valid')); ?>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label> </label>
+                                <input id="branch_name" name="branch_name" value="<?php echo  set_value('branch_name');  ?>"  ng-model="class_info.class_code" class="form-control required ng-pristine ng-valid" type="text" name="class_code" id="class_code" placeholder="Branch Name" maxlength="45">
+                                <?php echo form_error('branch_name');  ?>
+                            </div>
+                        </div> 
+
+                       
+                        <div class="col-md-12">
+                            <input class="blue-button" ng-click="add_update_class()" type="submit" name="add_class_btn" id="add_class_btn" value="Submit">
+                        </div>
+                    <?php    echo  form_close(); ?>
+		</div>
         
     </div>
+
         <!-- Advanced Tables -->
         <div class="panel panel-primary">
             <div class="panel-heading">

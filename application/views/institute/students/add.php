@@ -1,6 +1,6 @@
 <!-- Page Header -->
     <div class="col-lg-12">
-        <h1 class="page-header">STUDENTS - Add New
+        <h1 class="page-header">Add Students
         <div class="btn-group">					
 
 </div>	
@@ -9,10 +9,10 @@
     <!--End Page Header -->
 </div>
 
-    
+<div class="row login-panel panel panel-default svdf">    
 <form role="form" method="post" action="<?php echo current_url() ?>" class="form-horizontal">
   
-  <table class="striped responsive-table" style="margin-bottom: 10px;">
+  <table class="table table-striped responsive-table" style="margin-bottom: 10px;">
                 	<thead>
                     	<tr>
                         	<th>Enrollment No.</th>
@@ -48,11 +48,12 @@
                     </tbody>
                 </table>
 
-
-<a class="btn btn-info" id="add-student-id">Add Students</a>
-  <button type="submit" class="btn btn-primary">Submit</button>
+<div class="col-lg-12 btn-margins">
+<a class="blue-button" id="add-student-id">Add Students</a>
+  <button type="submit" class="blue-button">Submit</button>
+  </div>
 </form>
-
+</div>
                 
 <!-- end page-wrapper -->
 

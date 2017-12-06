@@ -987,7 +987,7 @@ ul li.searchable-container{margin: 10px 0 0 0;}
 .banner .course-auth-desc {margin:50px 30px;}
 .banner .profile p{color:#fff;}
 .banner .course-auth-desc p{color:#fff;}
-.banner .profile p:nth-child(1){width:174px; height:174px; overflow:hidden; border-radius:100%; position:relative; border:1px solid #000; float:left;    margin-right: 20px; z-index:9;}
+.banner .profile p:nth-child(1){width:174px; height:174px; overflow:hidden; border-radius:100%; position:relative; border:1px solid #000; float:left;    margin-right: 20px; z-index:9; background:#fff;}
 .banner .course-auth-desc p:nth-child(1){width:174px; height:174px; overflow:hidden; border-radius:100%; position:relative; border:1px solid #000; float:left;    margin-right: 20px; z-index:9;}
 .banner .profile p:nth-child(2){max-width: 728px; padding: 19px 45px; font-size: 12px; background: rgba(0, 0, 0, 0.65); border-radius: 87px; margin-left: 10px; position:relative;}
 .banner .course-auth-desc p:nth-child(2){max-width: 978px; padding: 16px 0; font-size: 12px; background: rgba(0, 0, 0, 0.25); border-radius: 87px; margin-left: 10px; position:relative;}

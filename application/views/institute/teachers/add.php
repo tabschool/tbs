@@ -1,6 +1,6 @@
 <!-- Page Header -->
     <div class="col-lg-12">
-        <h1 class="page-header">TEACHERS - Add New
+        <h1 class="page-header">Add Teachers
         <div class="btn-group">					
 
 </div>	
@@ -8,7 +8,7 @@
     </div>
     <!--End Page Header -->
 </div>
-
+<div class="row login-panel panel panel-default svdf">
     
 <form role="form" method="post" action="<?php echo current_url() ?>" class="form-horizontal">
   
@@ -39,7 +39,7 @@
   </div> -->
 
   
-  <table class="striped responsive-table" style="margin-bottom: 10px;">
+  <table class="table table-hover responsive-table" style="margin-bottom: 10px;">
                 	<thead>
                     	<tr>
                         	<th>Teacher Id.</th>
@@ -75,11 +75,12 @@
                     </tbody>
                 </table>
 
-
-<a class="btn btn-info" id="add-teacher-id">Add Teachers</a>
-  <button type="submit" class="btn btn-primary">Submit</button>
+<div class="col-lg-12 btn-margins">
+	<a class="blue-button" id="add-teacher-id">Add Teachers</a>
+  <button class="blue-button" type="submit" >Submit</button>
+  </div>
 </form>
-
+</div>
                 
 <!-- end page-wrapper -->
 

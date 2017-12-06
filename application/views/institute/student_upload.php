@@ -5,7 +5,7 @@
                 <div class="login-panel panel panel-default academic upload">                  
                    
                     <div class="panel-body blue-border first">
-				    <h3>Congralutions!! You have bought 2000 Connects </h3>
+				    <h3>Thanks for choosing the Tabschool, Start adding Students! </h3>
 				   
 				    <p><span> STUDENT BULK UPLOAD </span></p>
 

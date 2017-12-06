@@ -30,7 +30,7 @@ with Tabschool Inc.</h5>
 
                         <tr>
 
-                        	<td><i class="material-icons">check</i></td>
+                        	<td><i class="material-icons">done</i></td>
 
                             <td>Add 50 Students</td>
 
@@ -38,7 +38,7 @@ with Tabschool Inc.</h5>
 
                          <tr>
 
-                        	<td><i class="material-icons">check</i></td>
+                        	<td><i class="material-icons">done</i></td>
 
                             <td>Add 2 Courses</td>
 
@@ -46,7 +46,7 @@ with Tabschool Inc.</h5>
 
                          <tr>
 
-                        	<td><i class="material-icons">check</i></td>
+                        	<td><i class="material-icons">done</i></td>
 
                             <td>Add 10 Teachers</td>
 
@@ -54,7 +54,7 @@ with Tabschool Inc.</h5>
 
                          <tr>
 
-                        	<td><i class="material-icons">check</i></td>
+                        	<td><i class="material-icons">done</i></td>
 
                             <td>Access to full library</td>
 
@@ -62,7 +62,7 @@ with Tabschool Inc.</h5>
 
                          <tr>
 
-                        	<td><i class="material-icons">check</i></td>
+                        	<td><i class="material-icons">done</i></td>
 
                             <td>Stay Connected with your students</td>
 
@@ -70,7 +70,7 @@ with Tabschool Inc.</h5>
 
                          <tr>
 
-                        	<td><i class="material-icons">check</i></td>
+                        	<td><i class="material-icons">done</i></td>
 
                             <td>Create & Send unlimited content, MCQs & Assignments</td>
 
@@ -116,7 +116,7 @@ with Tabschool Inc.</h5>
 
                         <tr>
 
-                        	<td><i class="material-icons">check</i></td>
+                        	<td><i class="material-icons">done</i></td>
 
                             <td>Add Unlimited Students anytime</td>
 
@@ -124,7 +124,7 @@ with Tabschool Inc.</h5>
 
                          <tr>
 
-                        	<td><i class="material-icons">check</i></td>
+                        	<td><i class="material-icons">done</i></td>
 
                             <td>Add Unlimited Courses anytime</td>
 
@@ -132,7 +132,7 @@ with Tabschool Inc.</h5>
 
                          <tr>
 
-                        	<td><i class="material-icons">check</i></td>
+                        	<td><i class="material-icons">done</i></td>
 
                             <td>Add unlimited Teachers anytime</td>
 
@@ -140,7 +140,7 @@ with Tabschool Inc.</h5>
 
                          <tr>
 
-                        	<td><i class="material-icons">check</i></td>
+                        	<td><i class="material-icons">done</i></td>
 
                             <td>Access to full library</td>
 
@@ -148,7 +148,7 @@ with Tabschool Inc.</h5>
 
                          <tr>
 
-                        	<td><i class="material-icons">check</i></td>
+                        	<td><i class="material-icons">done</i></td>
 
                             <td>Stay Connected with your students</td>
 
@@ -156,7 +156,7 @@ with Tabschool Inc.</h5>
 
                          <tr>
 
-                        	<td><i class="material-icons">check</i></td>
+                        	<td><i class="material-icons">done</i></td>
 
                             <td>Create & Send unlimited content, MCQs & Assignments</td>
 

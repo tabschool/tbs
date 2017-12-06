@@ -68,7 +68,7 @@ class Dashboard extends CI_Controller {
                 $j++;
                 $resp.='<li>';
                 $resp.='<a href="#">';
-                $resp.='<i class="material-icons">T</i>';
+                $resp.='<i class="material-icons">event_note</i>';
                 $resp.=ucfirst($value->task);
                 $resp.='</a>';
                 $resp.='</li>';            

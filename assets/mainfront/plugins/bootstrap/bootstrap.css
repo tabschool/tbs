@@ -327,6 +327,10 @@ img {
 }
 .img-circle {
   border-radius: 50%;
+  width:150px;
+  height:150px;
+  overflow:hidden;
+  margin:0 auto;
 }
 hr {
   margin-top: 20px;
@@ -4450,7 +4454,10 @@ a.thumbnail.active {
 .alert-success {
   color: #3c763d;
   background-color: #dff0d8;
-  border-color: #d6e9c6;
+  border:1px solid #3c763d;
+  border-radius:5px;
+  padding:15px;
+  
 }
 .alert-success hr {
   border-top-color: #c9e2b3;

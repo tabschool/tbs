@@ -11,11 +11,11 @@
 					<p>TRY IT FOR FREE!!</p>
 					<p>30-Day Trial allows you use our application with all its feature </p>
 					<ul>
-					<li><i class="material-icons">check</i> Add 50 Students</li>
-					<li><i class="material-icons">check</i> Add 10 Teachers</li>
-					<li><i class="material-icons">check</i> Access to full library</li>
-					<li><i class="material-icons">check</i> Add 2 Courses</li>
-					<li><i class="material-icons">check</i> Stay Connected with your students </li>
+					<li><i class="material-icons">done_all</i> Add 50 Students</li>
+					<li><i class="material-icons">done_all</i> Add 10 Teachers</li>
+					<li><i class="material-icons">done_all</i> Access to full library</li>
+					<li><i class="material-icons">done_all</i> Add 2 Courses</li>
+					<li><i class="material-icons">done_all</i> Stay Connected with your students </li>
 
 					
 					<p>
@@ -37,11 +37,11 @@
 					<p>PAY AS YOU GO!!</p>
 					<p>Our Pay As You Go plan charges you Rs.50 per student </p>
 					<ul>
-					<li><i class="material-icons">check</i> Add Unlimited Students</li>
-					<li><i class="material-icons">check</i> Add Unlimited Teachers</li>
-					<li><i class="material-icons">check</i> Access to full library</li>
-					<li><i class="material-icons">check</i> Add Unlimited Courses</li>
-					<li><i class="material-icons">check</i> Stay Connected with your students </li>
+					<li><i class="material-icons">done_all</i> Add Unlimited Students</li>
+					<li><i class="material-icons">done_all</i> Add Unlimited Teachers</li>
+					<li><i class="material-icons">done_all</i> Access to full library</li>
+					<li><i class="material-icons">done_all</i> Add Unlimited Courses</li>
+					<li><i class="material-icons">done_all</i> Stay Connected with your students </li>
 					<p>
 
 
